@@ -1,6 +1,5 @@
-public struct DevTools {
-    public private(set) var text = "Hello, World!"
+@_exported import FLEX
+@_exported import Gedatsu
+@_exported import Logging
 
-    public init() {
-    }
-}
+public struct DevTools {}
